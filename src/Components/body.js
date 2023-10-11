@@ -24,6 +24,7 @@ export const Connect = () => {
   );
 };
 /* This is a comment */
+/* This is a second comment*/
 
 /* NAVBAR */
 export function NavBar() {
