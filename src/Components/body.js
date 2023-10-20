@@ -137,7 +137,7 @@ const ProjectDescription = () => {
       <h2>TEXT Q&amp;A</h2>
       <p>
         A place where the pubic could submit questions and feedback regarding
-        live talks, and get live answers, with integrated Socket.IO for
+        live talks, and get live answers, with integrated SSE (server side) for
         real-time notifications.
       </p>
     </div>
