@@ -6,12 +6,6 @@ import {
   ProjectTwo,
   Footer,
   HideShowFunction,
-  IncrementPractice,
-  PracticePlusMinus,
-  GettingStuffDone,
-  MyMapFunction,
-  QuickRandomFunction,
-  Connect,
 } from "./Components/body";
 import "./App.css";
 
