@@ -1,4 +1,5 @@
-import { Footer, LinkedInInfo, NavBar, Opening, OpeningContact } from "./body";
+import { Footer, LinkedInInfo, Opening, OpeningContact } from "./body";
+import { NavBar } from "./NavBar";
 
 export const ContactComponent = () => {
   return (

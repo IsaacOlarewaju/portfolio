@@ -1,104 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-
-/* CONNECT / SOCIAL MEDIA ICONS */
-export const Connect = () => {
-  return (
-    <div className="connect-container">
-      <div className="linked-in-icon">
-        <a href="https://www.linkedin.com/in/isaac-ola/" target="_blank">
-          <img src="/images/linkedin-icon.png" alt="My LinkedIn Account"></img>
-        </a>
-      </div>
-      <div className="github-icon">
-        <a href="https://github.com/IsaacOlarewaju/" target="_blank">
-          <img src="/images/github-icon.png" alt="My GitHub Account"></img>
-        </a>
-      </div>
-      <div className="mail-icon">
-        <a href="mailto:isaacola@me.com" target="_blank">
-          <img src="/images/email-icon.png"></img>
-        </a>
-      </div>
-    </div>
-  );
-};
-
-/* CONNECT / SOCIAL MEDIA ICONS - CONTACT*/
-export const ConnectContact = () => {
-  return (
-    <div className="connect-container">
-      <div className="linked-in-icon">
-        <a href="https://www.linkedin.com/in/isaac-ola/" target="_blank">
-          <img src="/images/linkedin-icon.png" alt="My LinkedIn Account"></img>
-        </a>
-      </div>
-      <div className="github-icon">
-        <a href="https://github.com/IsaacOlarewaju/" target="_blank">
-          <img src="/images/github-icon.png" alt="My GitHub Account"></img>
-        </a>
-      </div>
-      <div className="mail-icon">
-        <a href="mailto:isaacola@me.com" target="_blank">
-          <img src="/images/email-icon.png"></img>
-        </a>
-      </div>
-      <div className="download-icon">
-        <a href="/images/cv.pdf" download target="_blank">
-          <img src="/images/download-icon.png"></img>
-        </a>
-      </div>
-    </div>
-  );
-};
-
-/* NAVBAR */
-export function NavBar() {
-  const [showMenu, setShowMenu] = useState(false);
-
-  return (
-    <nav>
-      <div
-        className="burger-menu"
-        onClick={() => {
-          setShowMenu(!showMenu);
-        }}
-      >
-        <div className="burger-line"></div>
-        <div className="burger-line"></div>
-        <div className="burger-line"></div>
-      </div>
-
-      <div className={"menu " + (showMenu ? "flex appear" : "")}>
-        <div className="other-pages">
-          <ul>
-            <li className="buyan">
-              <Link to={"/"}>HOME</Link>
-            </li>
-            <li className="buyan">
-              <Link to={"/portfolio"}>PORTFOLIO</Link>
-            </li>
-            <li className="buyan">
-              <Link to={"/contact"}>CONTACT</Link>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  );
-}
-
-/* HEADINGS */
-export function Title() {
-  return (
-    <div className="intro-name">
-      <h1 className="buyan">
-        ISAAC <br />
-        OLAREWAJU
-      </h1>
-    </div>
-  );
-}
+import { ShowProjectName } from "./ShowProjectName";
+import { Title } from "./Title";
+import { ConnectContact } from "./ConnectContact";
+import { NavBar } from "./NavBar";
+import { ProjectImageLink } from "./ProjectImageLink";
+import { Connect } from "./Connect";
+import { Clip0 } from "./Clip0";
+import { Clip1 } from "./Clip1";
+import { Clip2 } from "./Clip2";
+import { Clip3 } from "./Clip3";
+import { Clip4 } from "./Clip4";
 
 function TitleContact() {
   return (
@@ -164,24 +76,6 @@ export function OpeningContact() {
   );
 }
 
-/* PROJECTS LINK-BLOCK */
-export function ProjectImageLink() {
-  return (
-    <a href="">
-      <img
-        className="project-image"
-        src="/images/chat-page-2.webp"
-        alt="Preview of my latest project"
-        srcSet="
-                    /images/chat-page-2.webp  500w,
-                    /images/chat-page-2.webp  900w,
-                    /images/chat-page-2.webp 1200w
-                "
-      />
-    </a>
-  );
-}
-
 /* PROJECT DESCRIPTION */
 const ProjectDescription = () => {
   return (
@@ -219,7 +113,9 @@ export function Footer() {
     <footer>
       <small>Isaac Olarewaju, 2023.</small>
       <small>
-        <a href="Contact">Contact</a>
+        <a href="Contact" to={"/contact"}>
+          Contact
+        </a>
       </small>
     </footer>
   );
@@ -248,90 +144,114 @@ export function ShowProject1Opening2() {
       <ShowProjectName />
       <ShowProjectDescription />
       <Clip0 />
+
       <div className="standard-project-description">
         <p>
-          An interactive question-and-answer app that allows users to get
-          real-time answers to questions posed during live talks. Users submit
-          questions to the app's administrator via text message (standard SMS).
-          The administrator reviews and authorizes each question before it is
-          displayed on the app's dashboard. Once authorized, questions appear as
-          tabs on the dashboard. Tapping on the tab opens a live chat page where
-          the administrator could answer questions and provide other helpful
-          information.
+          Text Q&amp;A is an interactuve and versatile app developed for staff
+          facilitating live talks. Versatile, as users are able to administer
+          various forms of live talks (large live meetings, live seminars, Zoom
+          meetings, online lectures, webinars, etc), in conjunction with the
+          app.
+          <br />
+          <br />
+          The Text Q&amp;A{" "}
+          <a href="#text-qa-dashboard">
+            <u>dashboard</u>
+          </a>
+          , which is only made visible to the user, and the{" "}
+          <a href="#text-qa-chatpage">
+            <u>chat page</u>
+          </a>
+          , which is publically projected, are pages users most commonly engage
+          with.
+        </p>
+        <Clip1 />
+        <div className="describing-picture-above project-image-responsive">
+          <p>Example of the users dashboard</p>
+        </div>
+        <Clip2 />
+        <div className="describing-picture-above project-image-responsive">
+          <p>Example of the chat page, which is publicly projected</p>
+        </div>
+
+        <p>
+          <br />
+          <strong>How does Text Q&amp;A work?</strong>
+          <br />
+          Text Q&amp;A is an interactive app that bridges the gap between public
+          speaker and audience.
+          <br />
+          In response to live talks, audiences, situated in various locations
+          sends posed questions by text message (standard SMS), which is
+          received and managed within the Text Q&amp;A app.
+          <br />
+          <br />
+          Text Q&amp;A allows for editorial discretion by allowing the user of
+          the app to review each question in the{" "}
+          <a href="#text-qa-dashboard">
+            <u>dashboard</u>
+          </a>{" "}
+          before making it visible in the{" "}
+          <a href="#text-qa-chatpage">
+            <u>chat page</u>
+          </a>
+          .
+          <br />
+          <br />
+          The real-time public projection of the chat page will enable the
+          public speaker to respond to and address authorized questions.
+          <br />
+          <br />
+          Text Q&amp;A is a highly useful tool for public speaking, as it
+          fosters a speedy, dynamic, and interactive presentation experience for
+          both speaker and audience.
         </p>
       </div>
+      <Clip4 />
       <Clip3 />
       <div className="standard-project-description">
         <p>
-          Tasks:
-          <br />
-          - User Interface
-          <br />
-          - Design
-          <br />
-          - Develop Front End
-          <br />
-          <br />
-          Background in digital design enabled me to design and create an
-          intuitive and visually appealing interface.
-          <br />
-          With competance in the React framework,
+          Text Q&amp;A was developed from the ground up. Leveraging my creative
+          design skills and knowledge of visual aesthetics, I developed a
+          coherent UX for the Text Q&amp;A app. CSS was used to translate this
+          UX and aesthetic vision into responsive web pages. React hooks such as
+          useState, useEffect, fetch, and props, were instrumental in adding
+          functionality and speedy performances to the app.
           <br />
           <br />
-          Working closely with a backend developer exposed me to whatnot and
-          whatnot...
+          Chrome DevTools, and using the console to log messages and run
+          commmands, enabled me to greatly develop problem solving, and
+          debugging skills. Being exposed to the React ecosystem increased my
+          confidence and workability in the framework.
+          <br />
+          <br />
+          Working in cooperation with a JavaScript developer allowed me to gain
+          knowledge in creating server-side web applications. Creating the Text
+          Q&amp;A app is highly rewarding, as it provides me opportunities
+          utilize, and increase my skill set.
         </p>
       </div>
-      <Clip1 />
-      <div className="describing-picture-above">
+      <div className=""></div>
+      <div className="visit-project-link">
         <p>
-          This is the dashboaerd of the app. This be the place that everyone
-          will see. All messages are reviewed and published by the admin, after
-          the admin gets a notification that a message had been received. and
-          whatnot.
+          <a href="https://www.sky.com/" target={"_blank"}>
+            {/* Turn on link once its been provided */}
+            {/* <u>Visit Text Q&amp;A →</u> */}
+          </a>
         </p>
       </div>
-      <Clip2 />
-      <div className="describing-picture-above">
-        <p>
-          This what the chat page looks like. It's simple and straight to the
-          point. Nice interface right?
-        </p>
-      </div>
-      <Clip3 />
     </div>
   );
 }
 
-const ShowProjectName = () => {
-  return (
-    <div>
-      <h2>QUESTION AND ANSWERING APP</h2>
-      <h3>FRONTEND DEVELOPMENT</h3>
-    </div>
-  );
-};
-
 const ShowProjectDescription = () => {
   return (
     <p>
-      Text Q&amp;A is a platform where the pubic could submit questions and
-      feedback regarding live talks, and get live answers, with integrated SSE
-      (server side) for real-time notifications.
+      Text Q&amp;A is an interactive question-and-answer app that allows public
+      listeners get real-time answers to questions posed during live talks.
     </p>
   );
 };
-
-// const DirectImageDescription = () => {
-//   return (
-//     <div className="describing-picture-above">
-//       <p>
-//         A platform where u mhd basac mhasmc bdasc dasmnb w live answers, with
-//         integrated SSE erver sideor real-time notifications.
-//       </p>
-//     </div>
-//   );
-// };
 
 export function ShowProjectImage() {
   return (
@@ -339,89 +259,17 @@ export function ShowProjectImage() {
       <div className="whatnot2"></div>
       <img
         className="project-image"
-        src="/images/screenshot2.png"
+        src="/images/NEW-Opening.webp"
         alt="Image of Project"
         srcSet="
-                    /images/screenshot2.png  500w,
-                    /images/screenshot2.png  900w,
-                    /images/screenshot2.png 1200w
+                    /images/NEW-Opening.webp  500w,
+                    /images/NEW-Opening.webp  900w,
+                    /images/NEW-Opening.webp 1200w
                 "
       />
     </div>
   );
 }
-
-const Clip0 = () => {
-  return (
-    <div className="whatnot1">
-      <div className="whatnot2"></div>
-      <img
-        className="project-image"
-        src="/images/iphone-mockup-2.webp"
-        alt="Image of Projectt"
-        srcSet="
-                    /images/iphone-mockup-2.webp  500w,
-                    /images/iphone-mockup-2.webp  900w,
-                    /images/iphone-mockup-2.webp 1200w
-                "
-      />
-    </div>
-  );
-};
-
-const Clip1 = () => {
-  return (
-    <div className="whatnot1">
-      <div className="whatnot2"></div>
-      <img
-        className="project-image"
-        src="/images/dashboard.png"
-        alt="Image of Projectt"
-        srcSet="
-                    /images/dashboard.png  500w,
-                    /images/dashboard.png  900w,
-                    /images/dashboard.png 1200w
-                "
-      />
-    </div>
-  );
-};
-
-const Clip2 = () => {
-  return (
-    <div className="whatnot1">
-      <div className="whatnot2"></div>
-      <img
-        className="project-image"
-        src="/images/chat-page.webp"
-        alt="Image of Projectt"
-        srcSet="
-                    /images/chat-page.webp  500w,
-                    /images/chat-page.webp  900w,
-                    /images/chat-page.webp 1200w
-                "
-      />
-    </div>
-  );
-};
-
-const Clip3 = () => {
-  return (
-    <div className="whatnot1">
-      <div className="whatnot2"></div>
-      <img
-        className="project-image"
-        src="/images/iphone-mockup-3.webp"
-        alt="Image of Projectt"
-        srcSet="
-                    /images/iphone-mockup-3.webp  500w,
-                    /images/iphone-mockup-3.webp  900w,
-                    /images/iphone-mockup-3.webp 1200w
-                "
-      />
-    </div>
-  );
-};
 
 const ContactInfo = () => {
   return (

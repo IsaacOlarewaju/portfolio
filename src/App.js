@@ -1,12 +1,12 @@
 import logo from "./logo.svg";
 import {
-  NavBar,
   Opening,
   ProjectOne,
   ProjectTwo,
   Footer,
   HideShowFunction,
 } from "./Components/body";
+import { NavBar } from "./Components/NavBar";
 import "./App.css";
 
 function App() {
