@@ -7,7 +7,7 @@ body {
 
 p {
   margin: 0;
-  font-family: typold, sans-serif;
+  font-family: typold, verdana, sans-serif;
 }
 
 
@@ -457,7 +457,7 @@ p {
 }
 
 .contact-container h3 {
-  font-family: typold, sans-serif;
+  font-family: typold, verdana, sans-serif;
   font-size: 1rem;
   line-height: 1.4rem;
   color: #4e4e4e;

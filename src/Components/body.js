@@ -112,11 +112,7 @@ export function Footer() {
   return (
     <footer>
       <small>Isaac Olarewaju, 2023.</small>
-      <small>
-        <a href="Contact" to={"/contact"}>
-          Contact
-        </a>
-      </small>
+      <small></small>
     </footer>
   );
 }
@@ -147,11 +143,11 @@ export function ShowProject1Opening2() {
 
       <div className="standard-project-description">
         <p>
-          Text Q&amp;A is an interactuve and versatile app developed for staff
-          facilitating live talks. Versatile, as users are able to administer
-          various forms of live talks (large live meetings, live seminars, Zoom
-          meetings, online lectures, webinars, etc), in conjunction with the
-          app.
+          Text Q&amp;A is an interactive and versatile app developed for staff
+          who'll facilitate live talks. Versatile, as users are able to
+          administer various forms of live talks (large live meetings, live
+          seminars, Zoom meetings, online lectures, webinars, etc), in
+          conjunction with the app.
           <br />
           <br />
           The Text Q&amp;A{" "}
@@ -162,16 +158,21 @@ export function ShowProject1Opening2() {
           <a href="#text-qa-chatpage">
             <u>chat page</u>
           </a>
-          , which is publically projected, are pages users most commonly engage
+          , which is publicly projected, are pages users most commonly engage
           with.
         </p>
         <Clip1 />
         <div className="describing-picture-above project-image-responsive">
-          <p>Example of the users dashboard</p>
+          <p>
+            <i>Example of the users dashboard</i>
+          </p>
         </div>
         <Clip2 />
+        <Clip4 />
         <div className="describing-picture-above project-image-responsive">
-          <p>Example of the chat page, which is publicly projected</p>
+          <p>
+            <i>Example of the chat page, which is publicly projected</i>
+          </p>
         </div>
 
         <p>
@@ -181,7 +182,7 @@ export function ShowProject1Opening2() {
           Text Q&amp;A is an interactive app that bridges the gap between public
           speaker and audience.
           <br />
-          In response to live talks, audiences, situated in various locations
+          In response to live talks, audiences, situated in various locations,
           sends posed questions by text message (standard SMS), which is
           received and managed within the Text Q&amp;A app.
           <br />
@@ -191,7 +192,7 @@ export function ShowProject1Opening2() {
           <a href="#text-qa-dashboard">
             <u>dashboard</u>
           </a>{" "}
-          before making it visible in the{" "}
+          before authorizing, and making it visible in the{" "}
           <a href="#text-qa-chatpage">
             <u>chat page</u>
           </a>
@@ -207,7 +208,7 @@ export function ShowProject1Opening2() {
           both speaker and audience.
         </p>
       </div>
-      <Clip4 />
+
       <Clip3 />
       <div className="standard-project-description">
         <p>
@@ -220,9 +221,9 @@ export function ShowProject1Opening2() {
           <br />
           <br />
           Chrome DevTools, and using the console to log messages and run
-          commmands, enabled me to greatly develop problem solving, and
-          debugging skills. Being exposed to the React ecosystem increased my
-          confidence and workability in the framework.
+          commmands enabled me to greatly develop problem solving, and debugging
+          skills. Being exposed to the React ecosystem increased my confidence
+          and workability in the framework.
           <br />
           <br />
           Working in cooperation with a JavaScript developer allowed me to gain
