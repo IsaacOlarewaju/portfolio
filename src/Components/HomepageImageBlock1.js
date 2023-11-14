@@ -1,5 +1,6 @@
-/* PROJECTS LINK-BLOCK */
-export function ProjectImageLink() {
+// Project One image block on the homepage
+
+export function HomepageImageBlock1() {
   return (
     <a href="">
       <img

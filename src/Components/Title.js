@@ -1,3 +1,5 @@
+// Name on Homepage
+
 export function Title() {
   return (
     <div className="intro-name">

@@ -3,10 +3,10 @@ import {
   Opening,
   ProjectOne,
   ProjectTwo,
-  Footer,
   HideShowFunction,
 } from "./Components/body";
 import { NavBar } from "./Components/NavBar";
+import { Footer } from "./Components/Footer";
 import "./App.css";
 
 function App() {

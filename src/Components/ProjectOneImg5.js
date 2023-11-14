@@ -1,4 +1,6 @@
-export const Clip4 = () => {
+// This file contains the fifth image of the first project
+
+export const ProjectOneImg5 = () => {
   return (
     <div className="whatnot1">
       <img

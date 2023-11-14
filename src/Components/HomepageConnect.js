@@ -1,5 +1,6 @@
-/* CONNECT / SOCIAL MEDIA ICONS */
-export const Connect = () => {
+// Social Media icons on the Homepage
+
+export const HomepageConnect = () => {
   return (
     <div className="connect-container">
       <div className="linked-in-icon">
