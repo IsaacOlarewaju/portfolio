@@ -2,7 +2,7 @@
 
 export const ProjectOneImg5 = () => {
   return (
-    <div className="whatnot1">
+    <div>
       <img
         id="text-qa-left-right"
         className="project-image project-image-desktop"

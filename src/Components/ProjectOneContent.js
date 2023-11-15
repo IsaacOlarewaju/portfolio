@@ -6,7 +6,7 @@ import { ProjectOneImg3 } from "./ProjectOneImg3";
 import { ProjectOneImg4 } from "./ProjectOneImg4";
 import { ProjectOneImg5 } from "./ProjectOneImg5";
 import { ShowProjectName } from "./ShowProjectName";
-import { ShowProjectDescription } from "./body";
+import { ProjectOneDescription } from "./ProjectOneDescription";
 
 export function ProjectOneContent() {
   return (
@@ -20,7 +20,7 @@ export function ProjectOneContent() {
         </div>
         <div id="intro-job-title">
           <ShowProjectName />
-          <ShowProjectDescription />
+          <ProjectOneDescription />
           <ProjectOneImg1 />
 
           <div className="standard-project-description">
@@ -46,14 +46,21 @@ export function ProjectOneContent() {
             <ProjectOneImg2 />
             <div className="describing-picture-above project-image-responsive">
               <p>
-                <i>Example of the users dashboard</i>
+                <i>
+                  Example of the users dashboard, showing incoming text
+                  messages/questions, waiting to be authorized and publicly
+                  broadcasted
+                </i>
               </p>
             </div>
             <ProjectOneImg3 />
             <ProjectOneImg5 />
             <div className="describing-picture-above project-image-responsive">
               <p>
-                <i>Example of the chat page, which is publicly projected</i>
+                <i>
+                  Example of the chat page, showing authorized, and publicly
+                  broadcasted questions from the public
+                </i>
               </p>
             </div>
 
@@ -112,7 +119,7 @@ export function ProjectOneContent() {
               Working in cooperation with a JavaScript developer allowed me to
               gain knowledge in creating server-side web applications. Creating
               the Text Q&amp;A app is highly rewarding, as it provides me
-              opportunities utilize, and increase my skill set.
+              opportunities to utilize, and increase my skill set.
             </p>
           </div>
           <div className=""></div>

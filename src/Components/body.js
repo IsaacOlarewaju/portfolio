@@ -13,6 +13,7 @@ import { HomepageJobDescription } from "./HomepageJobDescription";
 import { ProjectOneContent } from "./ProjectOneContent";
 import { Footer } from "./Footer";
 
+// Main title in the contact page
 function TitleContact() {
   return (
     <div className="intro-name">
@@ -24,6 +25,7 @@ function TitleContact() {
   );
 }
 
+// Job Title and job description in the homepage
 export function JobTitleAndDescription() {
   return (
     <div id="intro-job-title">
@@ -37,7 +39,7 @@ const JobTitle = () => {
   return <h2>FRONT END DEVELOPER</h2>;
 };
 
-/* OPENING SECTION */
+// Homepage Content
 export function Opening() {
   return (
     <section id="intro">
@@ -50,6 +52,7 @@ export function Opening() {
   );
 }
 
+// Contact Page Content
 export function OpeningContact() {
   return (
     <section id="intro">
@@ -77,29 +80,3 @@ export function ProjectOne() {
     </section>
   );
 }
-
-/* PROJECT 1 / TEXT Q&A */
-export const ShowProject1Opening = () => {
-  return (
-    <section id="intro">
-      <div className="container">
-        <div className="intro-name">
-          <h1 className="buyan">
-            TEXT <br></br>
-            Q&amp;A
-          </h1>
-        </div>
-        {/* <ProjectOneContent /> */}
-      </div>
-    </section>
-  );
-};
-
-export const ShowProjectDescription = () => {
-  return (
-    <p>
-      Text Q&amp;A is an interactive question-and-answer app that allows public
-      listeners get real-time answers to questions posed during live talks.
-    </p>
-  );
-};

@@ -2,8 +2,8 @@
 
 export const ProjectOneImg1 = () => {
   return (
-    <div className="whatnot1">
-      <div className="whatnot2"></div>
+    <div>
+      <div className="image-filler"></div>
       <img
         className="project-image"
         src="/images/NEW-Opening.webp-image-2.webp"

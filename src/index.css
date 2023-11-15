@@ -11,11 +11,6 @@ p {
 }
 
 
-
-
-
-
-
 /* INTRO */
 #intro {
   padding-top: 160px;
@@ -38,12 +33,6 @@ p {
       padding-top: 220px;
   }
 }
-
-
-
-
-
-
 
 
 /* CONTAINER */
@@ -79,15 +68,6 @@ p {
 }
 
 
-
-
-
-
-
-
-
-
-
 /* CONNECT / SOCIAL MEDIA */
 .connect-container {
   position: absolute;
@@ -95,7 +75,6 @@ p {
   flex-direction: row;
   top: 50px;
 }
-
 
 .linked-in-icon {
   margin-right: 16px;
@@ -126,7 +105,6 @@ p {
 }
 
 
-
 .github-icon {
   width: 36px;
   margin-right: 16px;
@@ -154,7 +132,6 @@ p {
     width: 36px;
   }
 }
-
 
 
 .mail-icon {
@@ -214,12 +191,6 @@ p {
 }
 
 
-
-
-
-
-
-
 /* CONTAINER IMAGE */
 .container img  {
   object-fit: cover;
@@ -251,9 +222,6 @@ p {
 }
 
 
-
-
-
 /* PROJECT IMAGE */
     #project-homepage {
     height: auto;
@@ -280,22 +248,17 @@ p {
 }
 }
 
-
-
 @media screen and (min-width: 990px) {
   .project-image-responsive {
     display: none;
   }
 }
 
-
-
 @media screen and (max-width: 989px) {
   .project-image-desktop {
     display: none;
   }
 }
-
 
 
 /* H1  /  HEADER */
@@ -327,13 +290,6 @@ p {
       line-height: 6.2rem;
   }
 }
-
-
-
-
-
-
-
 
 
 #intro-job-title {
@@ -400,8 +356,6 @@ p {
 }
 
 
-
-
 #intro-job-title h3 {
   font-weight: 600;
   font-size: 0.8rem;
@@ -411,8 +365,6 @@ p {
   letter-spacing: -0.025;
   margin-top: 0px;
 }
-
-
 
 
 #intro-job-title p {
@@ -449,9 +401,6 @@ p {
 }
 
 
-
-
-
 .contact-container {
   margin-top: 50px;
 }
@@ -471,8 +420,6 @@ p {
   color: #4e4e4e;
   margin: 0px;
 }
-
-
 
 
 .project-description-container h2 {
@@ -501,8 +448,6 @@ p {
 }
 
 
-
-
 .standard-project-description {
   margin-top: 80px;
 }
@@ -523,7 +468,6 @@ p {
 }
 
 
-
 .visit-project-link {
   margin-top: 80px;
   margin-bottom: 40px;
@@ -535,7 +479,6 @@ p {
 }
 
 
- 
 .project-description-container p {
   font-size: 0.85rem;
   line-height: 1.4rem;
@@ -566,9 +509,6 @@ p {
 }
 
 
-
-
-
 ul {
   padding: 0;
   width: 86%;
@@ -594,8 +534,6 @@ ul {
 }
 
 
-
-
 /* MENU */
 .menu {
   height: 100%;
@@ -615,7 +553,6 @@ ul {
   transition: opacity 0.5s;
   animation: menu-animation 0.75s linear;
 }
-
 
 
 .menu .other-pages ul li {
@@ -647,7 +584,6 @@ ul {
 }
 
 
-
 /* Projects Menu */
 .projects-menu {
   height: 100%;
@@ -677,17 +613,10 @@ ul {
 }
 
 
-
-
-
-
 a {
   text-decoration: none;
   color: #474747;
 }
-
-
-
 
 
 .burger-line {
@@ -699,11 +628,7 @@ a {
 }
 
 
-
-
-
-
-/* Same across all devices ?? */
+/* burger menu */
 .burger-menu {
   position: fixed;
   display: flex;
@@ -724,10 +649,6 @@ a {
     margin: 40px 40px 0 0;
   }
 }
-
-
-
-
 
 
 .arrow-menu {
@@ -765,10 +686,6 @@ a {
 }
 
 
-
-
-
-
 footer {
   display: flex;
   flex-direction: column;
@@ -779,17 +696,6 @@ footer {
   line-height: 1.25rem;
 }
 
-/*@media screen and (min-width: 990px) {
-  footer {
-   
-  }
-}*/
-
-
-
-
-
-
 
 /* Menu Animations */
 .flex {
@@ -799,8 +705,6 @@ footer {
 .appear {
   opacity: 1;
 }
-
-
 
 
 .other-pages {
@@ -837,21 +741,16 @@ footer {
 }
 
 
-
-
-
-
-
-.whatnot2 {
+.image-filler {
   height: 80px;
 }
 @media screen and (min-width: 480px) {
-  .whatnot2 {
+  .image-filler {
     height: 100px;
   }
 }
 @media screen and (min-width: 768px) {
-  .whatnot2 {
+  .image-filler {
     height: 140px;
   }
 }

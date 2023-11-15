@@ -2,8 +2,8 @@
 
 export const ProjectOneImg3 = () => {
   return (
-    <div className="whatnot1">
-      <div className="whatnot2 project-image-responsive"></div>
+    <div>
+      <div className="image-filler project-image-responsive"></div>
       <img
         id="text-qa-chatpage"
         className="project-image project-image-responsive"
