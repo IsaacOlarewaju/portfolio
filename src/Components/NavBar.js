@@ -26,7 +26,7 @@ export function NavBar() {
               <Link to={"/"}>HOME</Link>
             </li>
             <li className="buyan">
-              <Link to={"/portfolio"}>PORTFOLIO</Link>
+              <Link to={"/Projects"}>PORTFOLIO</Link>
             </li>
             <li className="buyan">
               <Link to={"/contact"}>CONTACT</Link>

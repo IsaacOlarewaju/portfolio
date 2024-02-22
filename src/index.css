@@ -11,6 +11,8 @@ p {
 }
 
 
+
+
 /* INTRO */
 #intro {
   padding-top: 160px;
@@ -68,6 +70,48 @@ p {
 }
 
 
+
+
+
+
+/* Work needed here! */
+.projects-container {
+  height: auto;
+  /* min-height: 240px; */
+  width: 90%;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+@media screen and (min-width: 480px) {
+  .projects-container {
+  height: auto;
+  min-height: 350px;
+  width: 86%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .projects-container {
+  height: auto;
+  width: 82%;
+  margin-bottom: 125px;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .projects-container {
+  height: auto;
+  width: 82%;
+  margin-bottom: 140px;
+  }
+}
+
+
+
+
+
+
 /* CONNECT / SOCIAL MEDIA */
 .connect-container {
   position: absolute;
@@ -103,6 +147,9 @@ p {
     width: 36px;
   }
 }
+
+
+
 
 
 .github-icon {
@@ -222,6 +269,84 @@ p {
 }
 
 
+
+
+
+/* CONTAINER IMAGE */
+.projects-container img  {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 3px;
+  margin-bottom: 6px;
+}
+
+@media screen and (min-width: 480px) {
+  .projects-container img {
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .projects-container img {
+    border-radius: 4px;
+    margin-bottom: 14px;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .container img {
+    border-radius: 0px;
+    margin-bottom: 16px;
+    object-fit: cover;
+  }
+}
+
+
+
+
+.projects-container h1 {
+  font-size: 5rem;
+  line-height: 4.6rem;
+  letter-spacing: 0rem;
+  color: #474747;
+  margin: 0;
+}
+
+@media screen and (min-width: 480px) {
+  .projects-container h1 {
+      font-size: 6rem;
+      line-height: 5.3rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .projects-container h1 {
+      font-size: 7rem;
+      line-height: 6.5rem;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .projects-container h1 {
+      font-size: 7rem;
+      line-height: 6.2rem;
+  }
+}
+
+.hidden-on-mobile {
+  display: none;
+}
+
+@media screen and (min-width: 990px) {
+  .hidden-on-mobile {
+display: block;
+  }
+}
+
+
+
+
 /* PROJECT IMAGE */
     #project-homepage {
     height: auto;
@@ -254,11 +379,12 @@ p {
   }
 }
 
-@media screen and (max-width: 989px) {
+@media screen and (max-width: 990px) {
   .project-image-desktop {
     display: none;
   }
 }
+
 
 
 /* H1  /  HEADER */
@@ -743,6 +869,7 @@ footer {
 
 .image-filler {
   height: 80px;
+  margin-bottom: 0;
 }
 @media screen and (min-width: 480px) {
   .image-filler {
@@ -772,5 +899,148 @@ footer {
 @media screen and (min-width: 990px) {
   .describing-picture-above {
     margin-top: -50px;
+  }
+}
+
+.buyan small {
+  font-size: 2.3rem;
+}
+
+
+video {
+  width: 70%;
+  padding: 20px;
+  border-radius: 25px;
+  margin-bottom: -10px;
+}
+
+.video {
+  width: 70%;
+  padding: 20px;
+  border-radius: 25px;
+  margin: 0 auto;
+}
+
+.portfolio-vid-container {
+  background-color: #efefee;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.pre {
+  font-size: 0.5rem;
+  line-height: 0.9rem;
+  font-family: monospace, sans-serif;
+  font-weight: 500;
+  color: gray;
+  background-color: #222;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 90px;
+}
+
+@media screen and (min-width: 480px) {
+  .pre {
+    font-size: 0.6rem;
+    line-height: 1.5rem;
+    margin-bottom: 125px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .pre {
+    font-size: 0.85rem;
+    line-height: 1.65rem;
+    margin-bottom: 150px;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .pre {
+    font-size: 1rem;
+    line-height: 1.65rem;
+    margin-bottom: 150px;
+  }
+}
+
+.pre-blue {
+  color: dodgerblue;
+}
+
+.pre-light-blue {
+  color: #9cdcfe;
+}
+
+.pre-coral {
+  color: #ce9178;
+}
+
+.pre-white {
+  color: white;
+}
+
+.pre-yellow {
+  color: #dcdcaa;
+}
+
+.pre-purple {
+  color: #c586c0;
+}
+
+.pre-amber {
+  color: orange;
+}
+
+.pre-cyan {
+  color: #4ec8af;
+}
+
+
+.filter-p {
+  margin-bottom: 75px;
+}
+
+@media screen and (min-width: 480px) {
+  .portfolio-vid-container {
+    width: 90%;
+    margin: 0 auto;
+
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio-vid-container {
+    width: 60%;
+  }
+}
+
+
+@media screen and (min-width: 990px) {
+  .portfolio-vid-container {
+    width: 55%;
+  }
+}
+
+
+.filter-p {
+  margin-top: -100px;
+  margin-bottom: 100px;
+}
+
+@media screen and (min-width: 480px) {
+  .filter-p {
+    margin-top: -125px;
+    margin-bottom: 125px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .filter-p {
+    margin-top: -150px;
+    margin-bottom: 175px;
   }
 }

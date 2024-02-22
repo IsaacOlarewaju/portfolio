@@ -1,12 +1,9 @@
 // Name on Homepage
 
-export function Title() {
+export function Title({ title }) {
   return (
     <div className="intro-name">
-      <h1 className="buyan">
-        ISAAC <br />
-        OLAREWAJU
-      </h1>
+      <h1 className="buyan">{title}</h1>
     </div>
   );
 }

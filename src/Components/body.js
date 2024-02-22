@@ -1,17 +1,10 @@
 // MAIN JS PAGE
 
-import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import { Title } from "./Title";
-import { ConnectContact } from "./ConnectContact";
-import { NavBar } from "./NavBar";
-import { HomepageImageBlock1 } from "./HomepageImageBlock1";
-import { HomepageConnect } from "./HomepageConnect";
-import { ContactPageContactInfo } from "./ContactPageContactInfo";
-import { HomepageProjectDescription } from "./HomepageProjectDescription";
-import { HomepageJobDescription } from "./HomepageJobDescription";
-import { ProjectOneContent } from "./ProjectOneContent";
-import { Footer } from "./Footer";
+import { ConnectContact } from "./connect/ConnectContact";
+import { HomepageConnect } from "./homepage/HomepageConnect";
+import { ContactPageContactInfo } from "../Components/connect/ContactPageContactInfo";
+import { HomepageJobDescription } from "./homepage/HomepageJobDescription";
 
 // Main title in the contact page
 function TitleContact() {
@@ -45,7 +38,8 @@ export function Opening() {
     <section id="intro">
       <div className="container">
         <HomepageConnect />
-        <Title />
+        <Title title="Isaac" />
+        <Title title="Olarewaju" />
         <JobTitleAndDescription />
       </div>
     </section>
@@ -65,18 +59,6 @@ export function OpeningContact() {
         </h2>
         <ContactPageContactInfo />
       </div>
-    </section>
-  );
-}
-
-/* FIRST PROJECT */
-export function ProjectOne() {
-  return (
-    <section className="container">
-      <Link to={"/portfolio"}>
-        <HomepageImageBlock1 />
-        <HomepageProjectDescription />
-      </Link>
     </section>
   );
 }

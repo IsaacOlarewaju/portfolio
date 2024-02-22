@@ -4,21 +4,35 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, Link, RouterProvider } from "react-router-dom";
-import { PortfolioComponent } from "./Components/portfolio";
-import { ContactComponent } from "./Components/contact";
+import { PortfolioTextQA } from "./Components/PortfolioTextQA";
+import { ContactComponent } from "./Components/connect/contact";
+import { Projects } from "./Components/Projects";
+import { PortfolioCanvas } from "./Components/PortfolioCanvas";
+import { PortfolioFullyCaptured } from "./Components/PortfolioFullyCaptured";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
   },
-
   {
-    path: "/portfolio",
-    element: <PortfolioComponent />,
+    path: "/textqa",
+    element: <PortfolioTextQA />,
+  },
+  {
+    path: "/canvas",
+    element: <PortfolioCanvas />,
+  },
+  {
+    path: "/fullyCaptured",
+    element: <PortfolioFullyCaptured />,
   },
   {
     path: "/contact",
     element: <ContactComponent />,
+  },
+  {
+    path: "/Projects",
+    element: <Projects />,
   },
 ]);
 
