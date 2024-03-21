@@ -65,7 +65,10 @@ export function PortfolioContentThree() {
           <div className=""></div>
           <div className="visit-project-link">
             <p>
-              <a href="https://fullycaptured.online/" target={"_blank"}>
+              <a
+                href="https://github.com/IsaacOlarewaju/fullycaptured"
+                target={"_blank"}
+              >
                 <u>GitHub Repository →</u>
               </a>
               <br />

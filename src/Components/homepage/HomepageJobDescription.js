@@ -4,7 +4,7 @@ export const HomepageJobDescription = () => {
   return (
     <p>
       A front-end developer passionate about building complex and scaleable
-      applications with cross-platform functionality using the React framework.
+      applications with cross-platform functionality using the React library.
       Background in digital design provides strong foundation for coherent user
       experience and visually appealing aesthetics. Eager to learn new, and
       build on front-end developing skills.

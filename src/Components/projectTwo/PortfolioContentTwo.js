@@ -94,7 +94,10 @@ export function PortfolioContentTwo() {
 
           <div className="visit-project-link">
             <p>
-              <a href="https://www.canvas-fw.com/" target={"_blank"}>
+              <a
+                href="https://github.com/IsaacOlarewaju/canvasforworks"
+                target={"_blank"}
+              >
                 <u>GitHub Repository →</u>
               </a>
               <br />

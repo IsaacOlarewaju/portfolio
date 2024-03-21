@@ -125,14 +125,14 @@ export function PortfolioContentOne() {
           <div className=""></div>
           <div className="visit-project-link">
             <p>
-              <a href="https://www.sky.com/" target={"_blank"}>
+              <a href="https://github.com/sho88/text-askme" target={"_blank"}>
                 <u>GitHub Repository →</u>
               </a>
+              {/* <br />
               <br />
-              <br />
-              <a href="https://www.sky.com/" target={"_blank"}>
+              <a href="https://www.textqa.com/" target={"_blank"}>
                 <u>Visit Text Q&amp;A →</u>
-              </a>
+              </a> */}
             </p>
           </div>
         </div>

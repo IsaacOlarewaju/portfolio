@@ -17,7 +17,7 @@ export const ContactPageContactInfo = () => {
         isaacola@me.com
       </a>
       <h3>Resume</h3>
-      <a href="/images/cv.pdf" download target="_blank">
+      <a href="/images/Resume.pdf" download target="_blank">
         Download Latest Resume
       </a>
     </div>
