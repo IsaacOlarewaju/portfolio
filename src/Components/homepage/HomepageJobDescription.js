@@ -5,9 +5,11 @@ export const HomepageJobDescription = () => {
     <p>
       A front-end developer passionate about building complex and scaleable
       applications with cross-platform functionality using the React library.
-      Background in digital design provides strong foundation for coherent user
-      experience and visually appealing aesthetics. Eager to learn new, and
-      build on front-end developing skills.
+      Proficient in React technologies such as state management, testing
+      libraries, NextJS, and routing. Background in digital design provides
+      strong foundation for coherent user experience and visually appealing
+      aesthetics. Looking to utilize, and build on front-end developing skills
+      and technologies.
     </p>
   );
 };

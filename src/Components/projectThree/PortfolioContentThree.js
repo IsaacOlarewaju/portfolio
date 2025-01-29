@@ -41,7 +41,9 @@ export function PortfolioContentThree() {
               <br />
               <br />
               Fully captured offers an interactive dashboard, as users are able
-              to fish friends and messages through the search function.
+              to fish friends and messages through the search function. App also
+              implements an efficient and reliable data retrieval solution by
+              using a RESTful API with the fetch method.
               <br />
               <br />
               The Chat Page is designed for ease of use with clear displays of
@@ -56,7 +58,7 @@ export function PortfolioContentThree() {
                 </i>
               </p>
             </div>
-            <FilteringCode />
+            {/* <FilteringCode /> */}
 
             <PortfolioImg5 pic="images/fully-captured-left-right-3.webp" />
             <PortfolioImg4 pic="/images/fully-captured-mockup.webp" />

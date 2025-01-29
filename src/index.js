@@ -9,6 +9,8 @@ import { ContactComponent } from "./Components/connect/contact";
 import { Projects } from "./Components/Projects";
 import { PortfolioCanvas } from "./Components/PortfolioCanvas";
 import { PortfolioFullyCaptured } from "./Components/PortfolioFullyCaptured";
+import { PortfolioArcThurrock } from "./Components/PortfolioArcThurrock";
+import { PortfolioCotta } from "./Components/PortfolioCotta";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -25,6 +27,14 @@ const router = createBrowserRouter([
   {
     path: "/fullyCaptured",
     element: <PortfolioFullyCaptured />,
+  },
+  {
+    path: "/arc-thurrock",
+    element: <PortfolioArcThurrock />,
+  },
+  {
+    path: "/cotta",
+    element: <PortfolioCotta />,
   },
   {
     path: "/contact",

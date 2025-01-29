@@ -14,7 +14,7 @@ export const PortfolioImg5 = ({ pic, desc }) => {
           <i>{desc}</i>
         </p>
       </div>
-      <div className="image-filler"></div>
+      {/* <div className="image-filler"></div> */}
     </div>
   );
 };

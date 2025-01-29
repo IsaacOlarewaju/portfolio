@@ -60,7 +60,11 @@ export function PortfolioContentOne() {
               </p>
             </div>
             <PortfolioImg3 pic="/images/NEW-chat-page1.webp" />
-            <PortfolioImg5 pic="images/desktop-left-right-2.webp" />
+            <PortfolioImg5
+              pic="images/desktop-left-right-2.webp"
+              desc="Example of the chat page, showing authorized questions from
+                  the public, and boradcasting them to the public"
+            />
             <div className="describing-picture-above project-image-responsive">
               <p>
                 <i>

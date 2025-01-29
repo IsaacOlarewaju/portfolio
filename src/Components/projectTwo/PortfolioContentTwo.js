@@ -60,7 +60,7 @@ export function PortfolioContentTwo() {
             <PortfolioImg5 pic="images/gosse-mobile-view-1.webp" />
             <PortfolioImg5 pic="images/gosse-mobile-view-2.webp" />
 
-            <PortfolioImg5 pic="/images/canvas-landing-3.webp" />
+            <PortfolioImg5 pic="/images/canvas-landing-3.webp" desc="." />
 
             <PortfolioImg3 pic="/images/canvas-mobile-view-mobile-3.webp" />
             <PortfolioImg3 pic="/images/canvas-mobile-view-mobile-4.webp" />
@@ -69,11 +69,6 @@ export function PortfolioContentTwo() {
             <PortfolioImg3 pic="/images/canvas-landing-3.webp" />
 
             <p>
-              {/* Canvas for Works©... proud of sharing website in business cards,
-              and other advertising material… A safe and ideal space to share
-              company information…
-              <br />
-              <br /> */}
               Canvas for Works© was immediately able to gain two new clients due
               to increased awareness.
               <br />

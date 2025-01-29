@@ -6,6 +6,7 @@ import { NavBar } from "./NavBar";
 import { Opening } from "./body";
 import { HomepageConnect } from "./homepage/HomepageConnect";
 import { Title } from "./Title";
+import { ProjectFour } from "./projectFour/ProjectFour";
 
 export const Projects = () => {
   return (
@@ -20,6 +21,7 @@ export const Projects = () => {
       <ProjectOne />
       <ProjectTwo />
       <ProjectThree />
+      <ProjectFour />
     </div>
   );
 };

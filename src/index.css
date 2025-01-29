@@ -40,9 +40,10 @@ p {
 /* CONTAINER */
 .container {
   height: auto;
-  min-height: 440px;
   width: 90%;
   margin: auto;
+  padding-bottom: 75px;
+  /* was formally min-height 440px, before it was changed to padding-bottom 75px */
 }
 
 @media screen and (min-width: 480px) {
@@ -341,6 +342,7 @@ p {
 @media screen and (min-width: 990px) {
   .hidden-on-mobile {
 display: block;
+padding-top: 80px;
   }
 }
 
@@ -878,7 +880,7 @@ footer {
 }
 @media screen and (min-width: 768px) {
   .image-filler {
-    height: 140px;
+    height: 100px;
   }
 }
 
@@ -907,20 +909,6 @@ footer {
 }
 
 
-video {
-  width: 70%;
-  padding: 20px;
-  border-radius: 25px;
-  margin-bottom: -10px;
-}
-
-.video {
-  width: 70%;
-  padding: 20px;
-  border-radius: 25px;
-  margin: 0 auto;
-}
-
 .portfolio-vid-container {
   background-color: #efefee;
   width: 100%;
@@ -930,6 +918,9 @@ video {
   align-items: center;
 }
 
+video {
+  width: 100%;
+}
 
 .pre {
   font-size: 0.5rem;

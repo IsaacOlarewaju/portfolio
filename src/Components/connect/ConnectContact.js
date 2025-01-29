@@ -17,7 +17,7 @@ export const ConnectContact = () => {
         </a>
       </div>
       <div className="download-icon">
-        <a href="/images/Curriculum-Vitae.pdf" download target="_blank">
+        <a href="/images/CV.pdf" download target="_blank">
           <img src="/images/download-icon.png"></img>
         </a>
       </div>
