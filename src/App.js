@@ -14,9 +14,9 @@ function App() {
     <div>
       <NavBar />
       <Opening />
-      <ProjectOne />
       <ProjectTwo />
       <ProjectThree />
+      <ProjectOne />
       <ProjectFour />
       {/* <ProjectFive /> */}
       <Footer />

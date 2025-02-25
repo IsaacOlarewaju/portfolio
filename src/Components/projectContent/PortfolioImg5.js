@@ -9,12 +9,6 @@ export const PortfolioImg5 = ({ pic, desc }) => {
         src={pic}
         alt="Image of Project"
       />
-      <div className="describing-picture-above project-image-desktop">
-        <p>
-          <i>{desc}</i>
-        </p>
-      </div>
-      {/* <div className="image-filler"></div> */}
     </div>
   );
 };

@@ -16,11 +16,11 @@ export const ConnectContact = () => {
           <img src="/images/email-icon.png"></img>
         </a>
       </div>
-      <div className="download-icon">
+      {/* <div className="download-icon">
         <a href="/images/CV.pdf" download target="_blank">
           <img src="/images/download-icon.png"></img>
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };

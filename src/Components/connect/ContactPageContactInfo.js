@@ -16,10 +16,10 @@ export const ContactPageContactInfo = () => {
       <a href="mailto:isaacola@me.com" target="_blank">
         isaacola@me.com
       </a>
-      <h3>Resume</h3>
+      {/* <h3>Resume</h3>
       <a href="/images/CV.pdf" download target="_blank">
         Download Latest Resume
-      </a>
+      </a> */}
     </div>
   );
 };
