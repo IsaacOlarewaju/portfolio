@@ -1,13 +1,9 @@
 // All of the content in the first project
 
-import { PortfolioImg1 } from "../projectContent/PortfolioImg1";
-import { PortfolioImg2 } from "../projectContent/PortfolioImg2";
 import { PortfolioImg3 } from "../projectContent/PortfolioImg3";
-import { PortfolioImg4 } from "../projectContent/PortfolioImg4";
 import { PortfolioImg5 } from "../projectContent/PortfolioImg5";
 import { PortfolioImg7 } from "../projectContent/PortfolioImg7";
 import { TextQaImg1 } from "../projectContent/TextQaImg1";
-import { TextQaDashboard } from "../projectContent/TextQaDashboard";
 import { ProjectNameTitle } from "../projectContent/ProjectNameTitle";
 import { PortfolioDescription } from "../projectContent/PortfolioDescription";
 
