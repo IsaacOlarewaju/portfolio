@@ -4,7 +4,7 @@ export const TextQaImg1 = () => {
       <div className="image-filler"></div>
       <img
         className="project-image"
-        src="images/NEW-Opening.webp"
+        src="images/qa-opening.jpg"
         alt="image of project"
       />
     </div>

@@ -5,6 +5,7 @@ import { PortfolioImg2 } from "../projectContent/PortfolioImg2";
 import { PortfolioImg3 } from "../projectContent/PortfolioImg3";
 import { PortfolioImg4 } from "../projectContent/PortfolioImg4";
 import { PortfolioImg5 } from "../projectContent/PortfolioImg5";
+import { PortfolioImg7 } from "../projectContent/PortfolioImg7";
 import { TextQaImg1 } from "../projectContent/TextQaImg1";
 import { TextQaDashboard } from "../projectContent/TextQaDashboard";
 import { ProjectNameTitle } from "../projectContent/ProjectNameTitle";
@@ -26,7 +27,7 @@ export function PortfolioContentOne() {
             job="FRONTEND DEVELOPMENT"
           />
           <PortfolioDescription
-            sentence="Text Q&amp;A is an interactive question-and-answer app that allows public
+            sentence="An interactive question-and-answer app that allows public
       listeners get real-time answers to questions posed during live talks."
           />
           <TextQaImg1 />
@@ -47,32 +48,26 @@ export function PortfolioContentOne() {
               </a>
               , which is publicly projected, are pages users most commonly
               engage with.
-              <br />
-              <br />
             </p>
-            <PortfolioImg3 pic="/images/NEW-dashboard.webp" />
-            <div className="describing-picture-above project-image-responsive">
-              <p>
-                <i>
-                  Example of the users dashboard, showing incoming text
-                  messages, waiting to be authorized and publicly broadcasted
-                </i>
-              </p>
+
+            <div className="standard-project-half-half-mobile">
+              <PortfolioImg7 pic="images/logo.jpg" />
+              <span className="standard-project-description-wrap">
+                <h6>
+                  dsjhvds dsnvds cdsncv sdmv Text Q&amp;A was developed from the
+                  ground up. Leveraging my crea design skills and knowledge of
+                  visual aesthetics, I developed
+                  <br />
+                  <br />
+                  Text Q&amp;A was developed from the ground up. Leveraging my
+                  crea design skills and knowledge of visual aesthetics, I
+                  developed
+                </h6>
+              </span>
             </div>
-            <PortfolioImg3 pic="/images/NEW-chat-page1.webp" />
-            <PortfolioImg5
-              pic="images/desktop-left-right-2.webp"
-              desc="Example of the chat page, showing authorized questions from
-                  the public, and boradcasting them to the public"
-            />
-            <div className="describing-picture-above project-image-responsive">
-              <p>
-                <i>
-                  Example of the chat page, showing authorized questions from
-                  the public, and boradcasting them to the public
-                </i>
-              </p>
-            </div>
+
+            <PortfolioImg3 pic="images/qa-logo-text.jpg" />
+            <PortfolioImg5 pic="images/qa-logo-text.jpg" />
 
             <p>
               <br />
@@ -103,40 +98,60 @@ export function PortfolioContentOne() {
             </p>
           </div>
 
-          <PortfolioImg4 pic="images/text-from-home.webp" />
-          <div className="standard-project-description">
+          <PortfolioImg3 pic="/images/qa1-mobile.webp" />
+          <PortfolioImg3 pic="/images/qa2-mobile.webp" />
+          <PortfolioImg3 pic="/images/qa3-mobile.webp" />
+          <PortfolioImg5 pic="images/qa1.webp" />
+          <PortfolioImg5 pic="images/qa2.webp" />
+          <PortfolioImg5 pic="images/qa3.webp" />
+
+          {/* <div className="describing-picture-above project-image-responsive">
             <p>
-              Text Q&amp;A was developed from the ground up. Leveraging my
-              creative design skills and knowledge of visual aesthetics, I
-              developed a coherent UX for the Text Q&amp;A app. CSS was used to
-              translate this UX and aesthetic vision into responsive web pages.
-              React hooks such as useState and useEffect were instrumental in
-              adding functionality and speedy performances to the app.
-              <br />
-              <br />
-              Chrome DevTools, and using the console to log messages and run
-              commmands enabled me to greatly develop problem solving, and
-              debugging skills. Being exposed to the React ecosystem increased
-              my confidence and workability in the framework.
-              <br />
-              <br />
-              Working in cooperation with a JavaScript developer allowed me to
-              gain knowledge in creating server-side web applications. Creating
-              the Text Q&amp;A app is highly rewarding, as it provides me
-              opportunities to utilize, and increase my skill set.
+              <i>
+                Example of the chat page, showing authorized questions from the
+                public, and boradcasting them to the public
+              </i>
             </p>
+          </div> */}
+
+          <p>
+            <br />
+            Text Q&amp;A is an interactive app that bridges the gap between
+            public speaker and audience. c, and interactive presentation
+            experience for both speaker and audience.
+            <br />
+            <br />
+            Text Q&amp;A is a highly useful tool for public speaking, as it
+            fosters a speedy, dynamic, and interactive presentation experience
+            for both speaker and audience.
+          </p>
+
+          <div className="standard-project-half-half-mobile">
+            <PortfolioImg7 pic="images/qa-app-showcase-2.webp" />
+            <span className="standard-project-description-wrap">
+              <h6>
+                dsjhvds bbbbbbb dsnvds cdsncv sdmv Text Q&amp;A was developed
+                from the ground up. Leveraging my crea design skills and
+                knowledge of visual aesthetics, I developed
+                <br />
+                <br />
+                Text Q&amp;A was developed from the ground up. Leveraging my
+                crea design skills and knowledge of visual aesthetics, I
+                developed
+              </h6>
+            </span>
           </div>
-          <div className=""></div>
+
           <div className="visit-project-link">
             <p>
               <a href="https://github.com/sho88/text-askme" target={"_blank"}>
                 <u>GitHub Repository →</u>
               </a>
-              {/* <br />
               <br />
-              <a href="https://www.textqa.com/" target={"_blank"}>
+              <br />
+              <a href="https://text-qa.co.uk/" target={"_blank"}>
                 <u>Visit Text Q&amp;A →</u>
-              </a> */}
+              </a>
             </p>
           </div>
         </div>

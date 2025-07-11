@@ -11,8 +11,6 @@ p {
 }
 
 
-
-
 /* INTRO */
 #intro {
   padding-top: 160px;
@@ -264,7 +262,7 @@ p {
 @media screen and (min-width: 990px) {
   .container img {
     border-radius: 0px;
-    margin-bottom: 16px;
+    margin-bottom: 0px;
     object-fit: cover;
   }
 }
@@ -298,7 +296,6 @@ p {
 @media screen and (min-width: 990px) {
   .container img {
     border-radius: 0px;
-    margin-bottom: 16px;
     object-fit: cover;
   }
 }
@@ -342,7 +339,7 @@ p {
 @media screen and (min-width: 990px) {
   .hidden-on-mobile {
 display: block;
-padding-top: 80px;
+padding-top: 70px;
   }
 }
 
@@ -496,8 +493,8 @@ padding-top: 80px;
 
 
 #intro-job-title p {
-  font-size: 0.85rem;
-  line-height: 1.4rem;
+  font-size: 11pt;
+  line-height: 20pt;
   color: #4e4e4e;
   margin-top: 40px;
 }
@@ -505,7 +502,7 @@ padding-top: 80px;
 @media screen and (min-width: 480px) {
   #intro-job-title p {
       margin-top: 52px;
-      font-size: 1rem;
+      font-size: 11pt;
       line-height: 1.65rem;
   }
 }
@@ -513,7 +510,7 @@ padding-top: 80px;
 @media screen and (min-width: 768px) {
   #intro-job-title p {
       margin-top: 70px;
-      font-size: 1rem;
+      font-size: 12pt;
       line-height: 1.9rem;
   }
 }
@@ -523,7 +520,7 @@ padding-top: 80px;
       width: 65%;
       max-width: 1200px;
       margin-top: 40px;
-      font-size: 1rem;
+      font-size: 12pt;
       line-height: 1.75rem;
   }
 }
@@ -552,7 +549,7 @@ padding-top: 80px;
 
 .project-description-container h2 {
   font-family: Helvetica, sans-serif;
-  margin-top: 0;
+  margin-top: 15px;
   color: #b3b3b3;
   font-size: 1.2rem;
 }
@@ -870,17 +867,17 @@ footer {
 
 
 .image-filler {
-  height: 80px;
+  height: 70px;
   margin-bottom: 0;
 }
 @media screen and (min-width: 480px) {
   .image-filler {
-    height: 100px;
+    height: 70px;
   }
 }
 @media screen and (min-width: 768px) {
   .image-filler {
-    height: 100px;
+    height: 70px;
   }
 }
 
@@ -1033,5 +1030,73 @@ video {
   .filter-p {
     margin-top: -150px;
     margin-bottom: 175px;
+  }
+}
+
+
+.project-image-half-width {
+  width: 100%;
+  margin-top: 70px;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 990px) {
+.project-image-half-width {
+  width: 40%;
+  display: inline-block;
+  margin-top: 70px;
+  margin-bottom: 0;
+}
+}
+
+
+
+.standard-project-description-wrap {
+  width: 100%;
+  display: block;
+}
+
+
+@media screen and (min-width: 990px) {
+.standard-project-description-wrap {
+  width: 53%;
+  display: inline-block;
+  margin-left: 30px;
+}
+}
+
+
+h6 {
+  margin: 0;
+  font-family: typold, verdana, sans-serif;
+  font-size: 11pt;
+  font-weight: 400;
+  line-height: 20pt;
+  width: 102%;
+  color: #4e4e4e;
+}
+
+@media screen and (min-width: 480px) {
+  h6 {
+      margin-top: 52px;
+      font-size: 11pt;
+      line-height: 1.65rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h6 {
+      margin-top: 70px;
+      font-size: 12pt;
+      line-height: 1.9rem;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  h6 {
+      max-width: 1200px;
+      margin-top: 40px;
+      font-size: 12pt;
+      line-height: 1.75rem;
   }
 }
