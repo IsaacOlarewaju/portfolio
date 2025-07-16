@@ -30,70 +30,98 @@ export function PortfolioContentOne() {
 
           <div className="standard-project-description">
             <p>
-              Users host live meetings such as seminars, Zoom meetings, online
-              lectures, webinars, and training, whilst using the app.
+              Text Q&A is an interactive, real-time question-and-answer
+              application designed to enhance the experience of live
+              presentations, such as online seminars and lectures.
               <br />
               <br />
-              The Text Q&amp;A{" "}
-              <a href="#text-qa-dashboard">
-                <u>dashboard</u>
-              </a>
-              , which is only made visible to the user, and the{" "}
-              <a href="#text-qa-chatpage">
-                <u>chat page</u>
-              </a>
-              , which is publicly projected, are pages users most commonly
-              engage with.
+              It aims to seamlessly bridge the gap between public speakers and
+              their remote audiences. Listeners can submit questions via
+              standard SMS to a designated mobile phone number, with these
+              messages instantly appearing within the speaker's Text Q&A app.
+              <br />
+              <br />
+              This immediate visibility empowers speakers to address questions
+              in real time, allowing dynamic, speedy, and a highly interactive
+              experience for both speaker and audience.
             </p>
 
             <div className="standard-project-half-half-mobile">
               <PortfolioImg7 pic="images/logo.jpg" />
               <span className="standard-project-description-wrap">
                 <h6>
-                  dsjhvds dsnvds cdsncv sdmv Text Q&amp;A was developed from the
-                  ground up. Leveraging my crea design skills and knowledge of
-                  visual aesthetics, I developed
+                  The Text Q&A logo is a carefully considered visual
+                  representation of its core functionality and purpose.
                   <br />
                   <br />
-                  Text Q&amp;A was developed from the ground up. Leveraging my
-                  crea design skills and knowledge of visual aesthetics, I
-                  developed
+                  The carefully selected shade of blue sets out to communicate
+                  innovation and trustworthiness. The shade of aqua for
+                  technological modernity, an app that offers a fresh and modern
+                  approach to remote Q & A's.
+                  <br />
+                  <br />
+                  The smooth gradient within the logo aims to invoke feelings of
+                  ease and effieciency of using the app. It also aims to show
+                  the interconnectedness between speaker and audience.
+                  <br />
+                  <br />
+                  The speech bubble placed within the negative space of the logo
+                  aims to give some indication of the nature of the app.
                 </h6>
               </span>
             </div>
-
-            <PortfolioImg3 pic="images/qa-logo-text.jpg" />
-            <PortfolioImg5 pic="images/qa-logo-text.jpg" />
-
-            <p>
-              <br />
-              <strong>How does Text Q&amp;A work?</strong>
-              <br />
-              Text Q&amp;A is an interactive app that bridges the gap between
-              public speaker and audience.
-              <br />
-              In response to the user hosting a live talk, their audiences,
-              which are located in various locations, text through their
-              questions (standard SMS) to a specific mobile number. This text
-              message received and managed within the Text Q&amp;A app.
-              <br />
-              <br />
-              The app practices editorial discretion by allowing the user of the
-              app to review each question in the dashboard before authorizing,
-              and making it visible in the chat page.
-              <br />
-              <br />
-              The real-time public projection of the chat page will enable the
-              public speaker to respond to and address questions that have been
-              authorized.
-              <br />
-              <br />
-              Text Q&amp;A is a highly useful tool for public speaking, as it
-              fosters a speedy, dynamic, and interactive presentation experience
-              for both speaker and audience.
-            </p>
           </div>
 
+          <PortfolioImg3 pic="images/qa-logo-text.jpg" />
+          <PortfolioImg5 pic="images/qa-logo-text.jpg" />
+
+          <div className="standard-project-description">
+            <p>
+              As the front-end React developer for Text Q&A, I was responsible
+              for bringing this interactive vision to life from the ground up.
+            </p>
+
+            <p>
+              {/* Component Architecture & Responsive Design */}I engineered a
+              modular and scalable component architecture, designing east to use
+              user interfaces that prioritize usability. Having a strong
+              background in digital design, I was able to translate the UX
+              vision into highly responsive web pages, ensuring an optimal
+              experience across all devices and browsers.
+            </p>
+            <p>
+              {/* State Management & React Hooks */}
+              I implemented robust state management using React's Context API
+              for global application state. This ensures consistent data flow
+              and predictable behavior across all components.
+              <br />
+              <br />
+              React Hooks such as useState and useEffect were instrumental in
+              adding dynamic functionality, managing component lifecycles, and
+              optimizing the app's performance. Within this process, I gained
+              more of an understanding in data flow within a complex React
+              application.
+            </p>
+
+            <p>
+              {/* API Integration & Real-Time Performance */}
+              To achieve the real-time interaction the Text Q&A is known for, I
+              implemented Server-Sent Events (SSE) for instant notifications and
+              updates of incoming questions. My work involved seamless API
+              integration with Firebase, which served as a reliable, real-time
+              database, ensuring high availability for managing questions. I was
+              able to gain deeper understanding in core web technologies and
+              building high-performance, real-time applications.
+            </p>
+
+            <p>
+              {/* Clean Code & Debugging */}I prioritized writing clean,
+              well-structured, and maintainable code throughout development. My
+              problem-solving and debugging skills were significantly enhanced
+              by frequently using Chrome DevTools, where I utilized the console
+              to log messages and run commands to diagnose issues.
+            </p>
+          </div>
           <PortfolioImg3 pic="/images/qa1-mobile.webp" />
           <PortfolioImg3 pic="/images/qa2-mobile.webp" />
           <PortfolioImg3 pic="/images/qa3-mobile.webp" />
@@ -101,39 +129,23 @@ export function PortfolioContentOne() {
           <PortfolioImg5 pic="images/qa2.webp" />
           <PortfolioImg5 pic="images/qa3.webp" />
 
-          {/* <div className="describing-picture-above project-image-responsive">
+          <div className="standard-project-description">
             <p>
-              <i>
-                Example of the chat page, showing authorized questions from the
-                public, and boradcasting them to the public
-              </i>
+              Working in partnership with a JavaScript developer exposed me to
+              server-side aspects, and strengthened my understanding of the
+              connection between client and server.
             </p>
-          </div> */}
-
-          <p>
-            <br />
-            Text Q&amp;A is an interactive app that bridges the gap between
-            public speaker and audience. c, and interactive presentation
-            experience for both speaker and audience.
-            <br />
-            <br />
-            Text Q&amp;A is a highly useful tool for public speaking, as it
-            fosters a speedy, dynamic, and interactive presentation experience
-            for both speaker and audience.
-          </p>
+          </div>
 
           <div className="standard-project-half-half-mobile">
             <PortfolioImg7 pic="images/qa-app-showcase-2.webp" />
             <span className="standard-project-description-wrap">
               <h6>
-                dsjhvds bbbbbbb dsnvds cdsncv sdmv Text Q&amp;A was developed
-                from the ground up. Leveraging my crea design skills and
-                knowledge of visual aesthetics, I developed
+                We are gunning to make this an actual app, available on the app
+                store...
                 <br />
                 <br />
-                Text Q&amp;A was developed from the ground up. Leveraging my
-                crea design skills and knowledge of visual aesthetics, I
-                developed
+                So watch this space!
               </h6>
             </span>
           </div>

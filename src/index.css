@@ -1042,7 +1042,7 @@ video {
 
 @media screen and (min-width: 990px) {
 .project-image-half-width {
-  width: 40%;
+  width: 43%;
   display: inline-block;
   margin-top: 70px;
   margin-bottom: 0;
@@ -1078,7 +1078,7 @@ h6 {
 
 @media screen and (min-width: 480px) {
   h6 {
-      margin-top: 52px;
+      margin-top: 0px;
       font-size: 11pt;
       line-height: 1.65rem;
   }
@@ -1086,7 +1086,7 @@ h6 {
 
 @media screen and (min-width: 768px) {
   h6 {
-      margin-top: 70px;
+      margin-top: 0px;
       font-size: 12pt;
       line-height: 1.9rem;
   }
@@ -1095,7 +1095,7 @@ h6 {
 @media screen and (min-width: 990px) {
   h6 {
       max-width: 1200px;
-      margin-top: 40px;
+      margin-top: 50px;
       font-size: 12pt;
       line-height: 1.75rem;
   }
