@@ -23,8 +23,8 @@ export function PortfolioContentOne() {
             job="FRONTEND DEVELOPMENT"
           />
           <PortfolioDescription
-            sentence="An interactive question-and-answer app that allows public
-      listeners get real-time answers to questions posed during live talks."
+            sentence="An interactive question-and-answer app that allows
+      listeners get real-time answers to questions posed during live public talks."
           />
           <TextQaImg1 />
 
@@ -50,14 +50,15 @@ export function PortfolioContentOne() {
               <PortfolioImg7 pic="images/logo.jpg" />
               <span className="standard-project-description-wrap">
                 <h6>
-                  The Text Q&A logo is a carefully considered visual
-                  representation of its core functionality and purpose.
+                  Having strong digital design skills, I was able to carefully
+                  craft a logo that visually represents its core functionality
+                  and purpose.
                   <br />
                   <br />
                   The carefully selected shade of blue sets out to communicate
                   innovation and trustworthiness. The shade of aqua for
                   technological modernity, an app that offers a fresh and modern
-                  approach to remote Q & A's.
+                  approach to remote question & answers.
                   <br />
                   <br />
                   The smooth gradient within the logo aims to invoke feelings of
@@ -66,26 +67,23 @@ export function PortfolioContentOne() {
                   <br />
                   <br />
                   The speech bubble placed within the negative space of the logo
-                  aims to give some indication of the nature of the app.
+                  aims to give some indication of the nature of the app. The
+                  logo itself sets out to represent a 'q' and an 'a'
+                  simultaneously.
                 </h6>
               </span>
             </div>
           </div>
 
-          <PortfolioImg3 pic="images/qa-logo-text.jpg" />
-          <PortfolioImg5 pic="images/qa-logo-text.jpg" />
+          <PortfolioImg3 pic="images/qa-logo-text-1.jpg" />
+          <PortfolioImg5 pic="images/qa-logo-text-1.jpg" />
 
           <div className="standard-project-description">
             <p>
-              As the front-end React developer for Text Q&A, I was responsible
-              for bringing this interactive vision to life from the ground up.
-            </p>
-
-            <p>
-              {/* Component Architecture & Responsive Design */}I engineered a
-              modular and scalable component architecture, designing east to use
-              user interfaces that prioritize usability. Having a strong
-              background in digital design, I was able to translate the UX
+              {/* Component Architecture & Responsive Design */}As a frontend
+              developer, I engineered a modular and scalable component
+              architecture, designing easy to use user interfaces that
+              prioritize usability. I was able to translate my intuitive UX
               vision into highly responsive web pages, ensuring an optimal
               experience across all devices and browsers.
             </p>
@@ -106,12 +104,14 @@ export function PortfolioContentOne() {
             <p>
               {/* API Integration & Real-Time Performance */}
               To achieve the real-time interaction the Text Q&A is known for, I
-              implemented Server-Sent Events (SSE) for instant notifications and
-              updates of incoming questions. My work involved seamless API
-              integration with Firebase, which served as a reliable, real-time
-              database, ensuring high availability for managing questions. I was
-              able to gain deeper understanding in core web technologies and
-              building high-performance, real-time applications.
+              helped implement Server-Sent Events (SSE) for instant
+              notifications and updates of incoming questions. I also
+              contributed in the creation of seamless API integration with
+              Firebase, which served as a reliable, real-time database, ensuring
+              high availability for managing questions. Working closely with a
+              backend developer, I was able to gain deeper understanding in core
+              web technologies and building high-performance, real-time
+              applications.
             </p>
 
             <p>
@@ -128,27 +128,6 @@ export function PortfolioContentOne() {
           <PortfolioImg5 pic="images/qa1.webp" />
           <PortfolioImg5 pic="images/qa2.webp" />
           <PortfolioImg5 pic="images/qa3.webp" />
-
-          <div className="standard-project-description">
-            <p>
-              Working in partnership with a JavaScript developer exposed me to
-              server-side aspects, and strengthened my understanding of the
-              connection between client and server.
-            </p>
-          </div>
-
-          <div className="standard-project-half-half-mobile">
-            <PortfolioImg7 pic="images/qa-app-showcase-2.webp" />
-            <span className="standard-project-description-wrap">
-              <h6>
-                We are gunning to make this an actual app, available on the app
-                store...
-                <br />
-                <br />
-                So watch this space!
-              </h6>
-            </span>
-          </div>
 
           <div className="visit-project-link">
             <p>
